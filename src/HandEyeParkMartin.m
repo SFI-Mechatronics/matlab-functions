@@ -7,6 +7,10 @@ function X = HandEyeParkMartin(A,B)
 %
 % Robot Sensor Calibration: Solving AX = XB on the Euclidean Group 
 % http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=326576
+% 
+% The algortihm is more or less a matlab eqvivalent of the python algorithm
+% developed by Torstein Myhre. Please see:
+% http://folk.ntnu.no/torstem/snippets/robcam_calibration.html
 
 sz = size(A);
 N = sz(1,3);
